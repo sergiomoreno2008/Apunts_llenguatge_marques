@@ -1,0 +1,21 @@
+.seccio {
+    border: solid 1px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+/* Para novil */
+@media (max-width: 760px) {
+    .seccio {
+        flex-direction: column;
+    }
+}
+
+
+.seccio > div {
+    border:solid 1px red;
+    min-width: 200px;
+    min-height: 200px;
+    margin: 15px;
+}
